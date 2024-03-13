@@ -235,6 +235,11 @@ class SignUpPage extends StatelessWidget {
         ),
         child: Text(
           'Terms and Condiitions',
+          style: greyTextStyle.copyWith(
+            fontSize: 16,
+            fontWeight: light,
+            decoration: TextDecoration.underline,
+          ),
         ),
       );
     }
